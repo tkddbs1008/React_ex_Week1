@@ -27,7 +27,7 @@ const WeekList = () => {
                 return (
                     <ItemStyle
                     onMouseOver={hover}
-                        key={`${index}`}
+                        key={index}
                         className="list_item"
                         onClick={() => {
                             history.push(`/review/${week_days[index]}`);
